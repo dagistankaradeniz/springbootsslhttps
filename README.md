@@ -7,6 +7,7 @@ All you need is to navigate your JRE/bin folder to use keytool as below
 C:\Program Files\Java\jre1.8.0_111\bin>keytool -genkey -alias diyar21 -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore D:\keystore.p12 -validity 3650
 ```
 
+
 ![CMD screenshot](https://github.com/dagistankaradeniz/images/blob/master/keytoolssl.JPG)
 
 
@@ -25,8 +26,9 @@ C:\Program Files\Java\jre1.8.0_111\bin>keytool -genkey -alias diyar21 -storetype
 ## Run Project
 Run project and try to reach http://localhost:8080/hello
 
+
 > You will see the page is redirecting to https (https://localhost:8443/hello) and also you will be informed for unauthorized certificate.
-> If you pay for an authorized one, you will not see and warning/inform etc.
+> If you pay for an authorized one, you will not see any warning/inform etc.
 
 
 That easy :+1: Good luck
